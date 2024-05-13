@@ -1,0 +1,16 @@
+<?page title="Auto Generated index.zul"?>
+<window id="ventana" apply="controladores.IndexControlador">
+	<listbox id="lbxUsuarios" width="" height="" onSelect="" mold="paging" pageSize="5">
+		<listhead>
+			<listheader label="nombre"></listheader>
+			<listheader label="apellido"></listheader>
+			<listheader label="edad"></listheader>
+			<listheader label="clave"></listheader>
+			
+		</listhead>
+		<listitem>
+			<listcell label=""></listcell>
+		</listitem>
+	</listbox>
+	<label id="lbl" value="Sin seleccion"></label>
+</window>
